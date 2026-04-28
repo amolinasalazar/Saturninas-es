@@ -122,6 +122,12 @@
       .hero-img:hover img {
         transform: scale(1.05);
       }
+      /* Focus on right side of image on mobile */
+      @media (max-width: 640px) {
+        .hero-img img {
+          object-position: 65% center;
+        }
+      }
       .headline {
         text-align: center;
         max-width: 22rem;
